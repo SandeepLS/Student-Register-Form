@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>registration</title>
+	<style type="text/css">
+		body{
+			background-image: url('wallpaperflare.com_wallpaper (3).jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.box1{
+			width: 630px;
+			height: 400px;
+			background-color: rgba(255,255,255,0.3);
+			font-size: 15px;
+			margin-left: 400px;
+			border: 2px solid;
+			border-radius: 10px;
+
+		}
+    .box1 label{
+     padding: 10px;
+
+    }
+    .box1 input{
+     width: 250px;
+     height: 30px;
+     margin-left: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     border: 0px;
+    }
+    .box1 select{
+       width: 250px;
+     height: 30px;
+     margin-left: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     border: 0px;
+    }
+  .box2{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+
+   
+  }
+   .topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+	</style>
+</head>
+<body>
+<h1 align="center" style="background-color:darkblue; color: white;">Personal Information</h1>
+<div class="topnav">
+<nav>
+  <a class="active" href="#home" style="float: left;">Home</a>
+  <a href="index.html">Personal Information</a>
+  <a href="persnol.html" style="background-color:green;">Guardian details </a>
+  <a href="acadamic.html"> Academics info</a>
+  
+
+  </nav>
+</div>
+</br>
+</br>
+<div class="box1">
+	<form action="persnol.jsp" method="post">
+		<div class="box2" style="margin-left: 20px;">
+	<label>Father Name :</label><br/>
+	<input type="text" name="father_name" placeholder="Enter your name"><br/>
+	<label>Mother Name :</label><br/>
+	<input type="text" name="mother_name" placeholder="Enter your Last name"><br/>
+	<label>Mother Tounge :</label><br/>
+	<input type="text" name="mother_tounge" placeholder="Enter your mother_tounge"><br/>
+	<label>Address :</label><br/>
+	<input type="text" name="address" placeholder="Enter your Address"><br/>
+	<label>State:</label><br/>
+	<input type="text" name="state" placeholder="enter"><br/>
+</div>
+<div class="box2" >
+		<label>Nationality:</label><br/>
+	<input type="text" name="nationality" placeholder="enter"><br/>
+		<label>Caste:</label><br/>
+	<input type="text" name="caste" placeholder="enter"><br/>
+		<label>Occupation:</label><br/>
+	<input type="text" name="occupation" placeholder="enter"><br/>
+	<label>Phone Number :</label><br/>
+	<input type="text" name="phno" placeholder="Enter your Phone number"><br/>
+	<label>Email Id:</label><br/>
+	<input type="text" name="eid" placeholder="Enter your email"><br/><br/>
+	</div>
+	<input type="Submit" value="Save and Next" style="background-color: black; color: white; margin-left: 170px;" onclick="next()" ><br/>
+	
+    </form>
+</div>
+
+<script type="text/javascript">
+	function next(){
+		alert('data saved successfuly');
+	}
+</script>
+
+<footer>
+  <h6 align="center"style="color: white;">&copy;copyright 2022</h6>
+  <h5 align="center" style="color: whitesmoke;">Developed By: Mahadev Bamma and Sandeep LS </h5>
+  
+</footer>
+
+</body>
+</html>

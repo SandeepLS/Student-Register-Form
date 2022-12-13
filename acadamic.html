@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>registration</title>
+	<style type="text/css">
+		body{
+			background-image: url('wallpaperflare.com_wallpaper (3).jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.box1{
+			width: 1030px;
+			height: 500px;
+			background-color: rgba(255,255,255,0.3);
+			font-size: 15px;
+			margin-left: 180px;
+			border: 2px solid;
+			border-radius: 10px;
+			margin-top: 15px;
+
+		}
+    .box1 label{
+     padding: 10px;
+
+    }
+    .box1 input{
+     width: 250px;
+     height: 30px;
+     margin-left: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     border: 0px;
+    }
+    .box1 select{
+       width: 250px;
+     height: 30px;
+     margin-left: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     border: 0px;
+    }
+  .box2{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+
+   
+  }
+   .topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+
+	</style>
+</head>
+<body>
+<h1 align="center" style="background-color:darkblue; color: white;">Acadamic Details</h1>
+<div class="topnav">
+<nav>
+  <a class="active" href="#home" style="float: left;">Home</a>
+  <a href="index.html">Personal Information</a>
+  <a href="persnol.html" >Guardian details </a>
+  <a href="#about" style="background-color:green;"> Academics info</a>
+  
+
+
+  </nav>
+</div>
+</br>
+</br>
+<div class="box1">
+	<form action="academics.jsp" method="post">
+		<div class="box2" style="margin-left: 20px;">
+			<label style="background-color:darkblue;color: whitesmoke;font-style: oblique;border-radius: 10px;margin-left: 30px;border-width: thick;"> SSLC Details      </label><br><br>
+	<label>School Name :</label><br/>
+	<input type="text" name="schoolname" placeholder="Enter your schoolname"><br/>
+	<label>Board :</label><br/>
+	<input type="text" name="sboard" placeholder="Enter your BordLast name"><br/>
+	<label1>Passing Year:</label><br/>
+	<select name="spassyear">
+		<option>select</option>
+		<option name="spassyear">2010</option>
+		<option name="spassyear">2011</option>
+		<option name="spassyear">2012</option>
+		<option name="spassyear">2014</option>
+		<option name="spassyear">2015</option>
+		<option name="spassyear">2016</option>
+	</select><br/>
+	
+	
+
+	<label>SSLC Marks :</label><br/>
+	<input type="text" name="sslcm" placeholder="Enter your Mraks"><br/>
+	<label>Percenrage</label><br/>
+	<input type="text" name="spercentage" placeholder="enter"><br/>
+</div>
+<div class="box2">
+		<label style="background-color:darkblue;color: whitesmoke;font-style: oblique;border-radius: 10px;margin-left: 30px;border-width: thick;">   PUC Details       </label><br><br>
+	<label>College Name :</label><br/>
+	<input type="text" name="collegename" placeholder="Enter your name"><br/>
+	<label>Board :</label><br/>
+	<input type="text" name="cboard" placeholder="Enter your Last name"><br/>
+	<label1>Passing Year :</label><br/>
+	<select name="cpassyear">
+		<option name="cpassyear">select</option>
+		<option name="cpassyear">2010</option>
+		<option name="cpassyear">2011</option>
+		<option name="cpassyear">2012</option>
+		<option name="cpassyear">2014</option>
+		<option name="cpassyear">2015</option>
+		<option name="cpassyear">2016</option>
+		<option name="cpassyear">2017</option>
+		<option name="cpassyear">2018</option>
+		<option>2019</option>
+	</select><br/>
+	<label1>Stream :</label><br/>
+	<select name="cstream">
+		<option name="cstream">Slelect</option>
+		<option name="cstream">Sceince</option>
+		<option name="cstream">Commerce</option>
+		<option name="cstream">Arts</option>
+	</select><br/>
+
+	<label> PUC Marks :</label><br/>
+	<input type="text" name="pucm" placeholder="Enter your Mraks"><br/>
+	<label>Percenrage</label><br/>
+	<input type="text" name="cpercentage" placeholder="enter"><br/>
+	</div>
+	<div class="box2" >
+	<label style="background-color:darkblue;color: whitesmoke;font-style: oblique;border-radius: 10px;margin-left: 30px;border-width: thick;">   UG Details       </label><br><br>
+	<label>College Name :</label><br/>
+	<input type="text" name="ugname" placeholder="Enter your name"><br/>
+	<label>Board :</label><br/>
+	<input type="text" name="ugboard" placeholder="Enter your Last name"><br/>
+	<label1>Passing Year :</label><br/>
+	<select name="ugpassyear">
+		<option name="ugpassyear">select</option>
+		<option name="ugpassyear">2010</option>
+		<option name="ugpassyear">2011</option>
+		<option name="ugpassyear">2018</option>
+		<option name="ugpassyear">2019</option>
+		<option name="ugpassyear">2020</option>
+		<option name="ugpassyear">2021</option>
+	</select><br/>
+	<label>Stream</label>
+	<select name="ugstream">
+
+		<option name="ugstream">Slelect</option>
+		<option name="ugstream">BSC</option>
+		<option name="ugstream">BCOM</option>
+		<option name="ugstream">BBA</option>
+		<option name="ugstream">BCA</option>
+	</select><br/>
+	
+	
+
+	<label>Mraka:</label><br/>
+	<input type="text" name="ugm" placeholder="Enter your Mraks"><br/>
+	<label>Percenrage or CGPA</label><br/>
+	<input type="text" name="ugpercentage" placeholder="enter"><br/>
+	</div>
+	<input type="Submit" name="name" value="Save and Next" style="background-color: black; color: white; margin-left: 330px; margin-top: 90px;" onclick="next()" ><br/>
+	
+    </form>
+</div>
+
+
+<script type="text/javascript">
+	function next(){
+		alert('data saved successfuly');
+	}
+</script>
+<footer>
+  <h6 align="center"style="color: white;">&copy;copyright 2022</h6>
+  <h5 align="center" style="color: whitesmoke;">Developed By: Mahadev Bamma and Sandeep LS </h5>
+  
+</footer>
+</body>
+</html>

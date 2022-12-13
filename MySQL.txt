@@ -1,0 +1,14 @@
+1)ma.jsp:-
+create table register(uname varchar2(50)primary key,password varchar2(50),email varchar2(50));
+
+2)index.jsp:-
+create table pinfoo(name varchar2(50)primary key,lname varchar2(50),dob varchar2(20),address varchar2(50),phno varchar2(12),eid varchar2(50));
+
+3)personal.jsp:-
+create table guardian(father_name varchar2(50)primary key,mother_name varchar2(50),mother_toung varchar2(30),address varchar2(50),state varchar2(30),nationality varchar2(30),caste varchar2(30),occupation varchar2(50),phno varchar2(12),eid varchar2(50));
+
+4)academics.jsp:-
+create table academics(schoolname varchar2(50)primary key,sboard varchar2(20),spassyear varchar2(20),sslcm varchar2(20),spercentage varchar2(20),collegename varchar2(50),
+cboard varchar2(20),cpassyear varchar2(20),cstream varchar2(20),pucm varchar2(20),cpercentage varchar2(20),ugname varchar2(50),ugboard varchar2(20),ugpassyear varchar2(20),
+ugstream varchar2(20),ugm varchar2(20),ugpercentage varchar2(20));
+
